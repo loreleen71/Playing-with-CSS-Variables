@@ -1,0 +1,46 @@
+:root{
+  --base: #03A9F4;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img{
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  width:50%;
+  height:50%;
+}
+
+.h1{
+  color: var(--base);
+}
+
+/* miscellanous styles nothing to do with css variables
+*/
+
+body{
+  text-align: center;
+}
+body{
+
+  background: #43A047;
+  color:white;
+  font-family: 'century gothic';
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.controls{
+  margin-bottom: 50px;
+}
+
+a{
+  color: var(--base);
+  text-decoration: none;
+}
+
+input{
+  width: 100px;
+
+}
